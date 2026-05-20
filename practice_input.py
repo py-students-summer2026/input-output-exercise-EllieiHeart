@@ -11,8 +11,7 @@ def get_favorite_vegetable():
     where X is replaced with the user's favorite vegetable.
     """
     X = input("\nWhat is your favorite vegetable? ")
-    print("EW! I don't like " + X + " at all!\n")  
-
+    print("Interesting! I also love " + X + "!")
 
 def get_favorite_number():
     """
@@ -21,7 +20,7 @@ def get_favorite_number():
     where X is replaced with the user's favorite number.
     """
     X = input("What is your favorite number? ")
-    print("Hey! " + X + " is my favorite number too!\n")
+    print("Interesting! I also love " + X + "!")
 
 
 def get_name_and_zodiac_sign():
@@ -33,7 +32,7 @@ def get_name_and_zodiac_sign():
     """
     X = input("What is your name? ")
     Y = input("What is your zodiac sign? ")
-    print("Hello " + X + "! My name is Elisenia, and I'm not a " + Y + " but I'm a Scorpio!\n")
+    print("Interesting! My name is also " + X + ", and I'm also a " + Y + "!")
 
 
 def get_name_and_age():
@@ -43,7 +42,7 @@ def get_name_and_age():
     Then print out, "Interesting! My name is also X, and I'm also Y years old!",
     where X and Y are replaced by the user's name and age, respectively.
     """
-    X = input("What is your name again? ")
+    X = input("What is your name? ")
     Y = input("What is your age? ")
-    print("Interesting! My name is also " + X + ", and I'm also " + Y + " years old!\n")
+    print("Interesting! My name is also " + X + ", and I'm also " + Y + " years old!")
     # erm actually im 22

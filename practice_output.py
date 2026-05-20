@@ -9,8 +9,7 @@ def print_with_line_break():
     """
     Prints out the text, 'Hello world!' with a line break at the end
     """
-    print("Hello world!\n")  # the \n at the end of the string creates a line break
-
+    print("Hello world!") # by default, the print() function adds a line break at the end of the string
 
 def print_without_line_break():
     """
@@ -37,5 +36,6 @@ def print_with_separator_dash_and_without_line_break():
     and without a line break at the end:
     "Twas", "brillig", "and", "the", "slithy", "toves"
     """
-    print("Twas", "brillig", "and", "the", "slithy", "toves", sep="-")
+    print("Twas", "brillig", "and", "the", "slithy", "toves", sep="-",end="")  
+    # the sep="-" argument puts a dash between each word, and the end="" argument prevents a line break at the end
     # you must supply each word as a separate argument to the print() function
